@@ -76,7 +76,7 @@ The retained resource file and the SVG sources should correspond to the same rev
 | `Voice_Changer.py` | Application entry point, Qt GUI, audio worker, and DSP effects |
 | `app_stylesheet.py` | Qt palette and stylesheet loading |
 | `main_app_window_cps.ui` | Qt Designer interface |
-| `darkgreen_palette.qss` | Qt stylesheet; the source and build recipe must use this exact name |
+| `darkngreen_palette.qss` | Qt stylesheet; the source and build recipe must use this exact name |
 | `CPS_resources_from_qt.qrc` | Qt resource manifest |
 | `CPS_resources_from_qt.py` | Generated Python resource module |
 | `cps_ikonki/` | Original SVG effect icons referenced by the resource manifest |
