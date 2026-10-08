@@ -1,0 +1,50 @@
+QPushButton {
+    background-color: #3B3B3B;
+    border: 2px solid #337418;  /* Ciemny zielony z palety */
+    color: #F8F8F8;             /* Jasny szary z palety */
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: rgba(93, 215, 45, 1);   /* Jaskrawy zielony z palety */
+}
+
+QPushButton:pressed {
+    background-color: #295D13;   /* Przyciemniony #337418 */
+}
+
+QCheckBox:disabled {
+    color: rgba(248, 248, 248, 100); /* #F8F8F8 z przezroczystością */
+}
+
+QDialog QLabel,
+QDialog QGroupBox {
+    color: #F8F8F8;             
+}
+
+QDialog QLineEdit,
+QDialog QAbstractSpinBox,
+QDialog QComboBox {
+    background-color: #1A1A1D;
+    color: #F8F8F8;            
+    border: 1.5px solid #337418; /* Ciemny zielony */
+    border-radius: 4px;
+}
+
+QComboBox
+{
+    background-color: #3B3B3B;
+    border: 2px solid #337418;  /* Ciemny zielony z palety */
+    color: #F8F8F8;
+    padding: 6px;
+    border-radius: 6px;
+}
+QComboBox:hover {
+    background-color: rgba(93, 215, 45, 1);   /* Jaskrawy zielony z palety */
+}
+
+QComboBox:pressed {
+    background-color: #295D13;   /* Przyciemniony #337418 */
+}

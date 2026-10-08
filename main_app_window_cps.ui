@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>653</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabMain">
+     <property name="styleSheet">
+      <string notr="true">QTabWidget::pane {
+        border: 1px solid #337418;
+        background: #1A1A1D;
+        border-radius: 4px;
+    }
+    
+    /* Styl paska zakładek */
+    QTabBar::tab {
+        background: #3B3B3B;
+        color: #F8F8F8;
+        border: 1px solid #337418;
+        border-bottom: none;
+        padding: 6px 12px;
+        margin-right: 2px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    
+    QTabBar::tab:selected {
+        background: #337418;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    
+    QTabBar::tab:hover {
+        background: #5DD62C;
+        color: #1A1A1D;
+    }
+    
+    QTabBar::tab:!selected {
+        margin-top: 2px; /* Wizualne oddzielenie nieaktywnych zakładek */
+    }
+    
+    QTabBar::scroller {
+        width: 20px;
+    }
+    
+    QTabBar QToolButton {
+        background: #337418;
+        color: #F8F8F8;
+    }</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="Effects">
+      <attribute name="title">
+       <string>Effects</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="5">
+        <layout class="QVBoxLayout" name="radio_layout">
+         <item>
+          <widget class="QWidget" name="radio_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/radio_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="radio_PushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Radio</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="5">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QToolButton" name="Microphone_toolButton">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/MIC_ACTIVATED.svg);
+background: None</string>
+           </property>
+           <property name="text">
+            <string>...</string>
+           </property>
+           <property name="icon">
+            <iconset resource="CPS_resources_from_qt.qrc">
+             <normaloff>:/cps_ikonki/cps_ikonki/MIC_ACTIVATED.svg</normaloff>:/cps_ikonki/cps_ikonki/MIC_ACTIVATED.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="1">
+        <layout class="QVBoxLayout" name="ring_mod_layout">
+         <item>
+          <widget class="QWidget" name="ring_mod_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/ring_mod_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ring_mod_pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Ring Modulation</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="3">
+        <layout class="QVBoxLayout" name="lp_layout">
+         <item>
+          <widget class="QWidget" name="lp_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/lp_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="lp_PushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Low Pitch</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="4">
+        <layout class="QVBoxLayout" name="verticalLayout_2"/>
+       </item>
+       <item row="1" column="2" colspan="2">
+        <layout class="QVBoxLayout" name="time_strech_layout">
+         <item>
+          <widget class="QWidget" name="ts_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/time_strech_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ts_pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Time Stretch</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QVBoxLayout" name="chorus_layout">
+         <item>
+          <widget class="QWidget" name="chorus_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/chorus_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="chorus_effect_PushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Chorus</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="robot_layout">
+         <item>
+          <widget class="QWidget" name="widget_3" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/robot_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="robot_pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Robot</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QVBoxLayout" name="lm_layout">
+         <item>
+          <widget class="QWidget" name="lm_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/matma_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="lekcja_matematyki_PushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Online Classroom</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="4">
+        <layout class="QVBoxLayout" name="hp_layout">
+         <item>
+          <widget class="QWidget" name="hp_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/hp_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="hp_effect_PushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>High Pitch</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="5">
+        <layout class="QVBoxLayout" name="bandpass_layout">
+         <item>
+          <widget class="QWidget" name="bp_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/bandpass_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="bp_pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Bandpass</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1" colspan="2">
+        <layout class="QVBoxLayout" name="echo_layout">
+         <item>
+          <widget class="QWidget" name="echo_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/echo_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="echo_pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Echo</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="4">
+        <layout class="QVBoxLayout" name="reverb_layout">
+         <item>
+          <widget class="QWidget" name="reverb_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/reverb_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reverb_PushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Reverb</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="1">
+        <layout class="QVBoxLayout" name="flanger_layout">
+         <item>
+          <widget class="QWidget" name="flanger_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/flanger_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="flanger_pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Flanger</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="3">
+        <layout class="QVBoxLayout" name="stutter_layout">
+         <item>
+          <widget class="QWidget" name="stutter_effect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>112</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/cps_ikonki/cps_ikonki/stutter_kolko.svg);</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="stutter_PushButton">
+           <property name="minimumSize">
+            <size>
+             <width>112</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Stutter</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Plots</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QWidget" name="signal_visualizer_widget" native="true"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QPushButton" name="record_pushButton">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Record</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="CPS_resources_from_qt.qrc"/>
+ </resources>
+ <connections/>
+</ui>

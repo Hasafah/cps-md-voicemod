@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="345"
+   height="345"
+   viewBox="0 0 91.28125 91.28125"
+   version="1.1"
+   id="svg17239"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="stutter_kolko.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17241"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.7251543"
+     inkscape:cx="74.46691"
+     inkscape:cy="35.16493"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs17236">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect18298-0-5"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect18308-3-2"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#ffffff;fill-opacity:0.996078;fill-rule:evenodd;stroke:#5fd72d;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path24122"
+       cx="45.725094"
+       cy="45.617283"
+       r="43.365482" />
+    <circle
+       style="fill:none;fill-opacity:0.996078;fill-rule:evenodd;stroke:#5fd72d;stroke-width:2.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="circle1688"
+       cx="45.725094"
+       cy="45.617283"
+       r="43.365482" />
+    <path
+       style="fill:none;fill-opacity:0.996078;fill-rule:evenodd;stroke:#727497;stroke-width:2.70001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8.2;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:stroke markers fill"
+       d="m 5.3040599,46.785318 h 7.2771111 v -8.87678 l 6.814015,18.88819 7.630221,-28.72909 c 2.896296,4.590163 1.164903,20.146352 7.519401,20.146352 L 36.794091,67.275328 42.8804,21.22287 47.114357,50.990112 h 3.043154 l 1.323106,-9.010258 2.77853,28.031926 6.417087,-41.780925 c 2.723981,11.179104 1.498202,14.450071 5.623232,14.349683 l 2.645986,15.502236 5.243258,-19.741776 2.579649,9.712815 h 9.377769"
+       id="path62067"
+       sodipodi:nodetypes="cccccccccccccccccc" />
+  </g>
+</svg>

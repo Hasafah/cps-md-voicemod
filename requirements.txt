@@ -1,0 +1,7 @@
+# Direct runtime dependencies inferred from Voice_Changer.py.
+# Record exact tested versions in requirements-lock.txt before publishing.
+PySide6
+PyAudio
+numpy
+scipy
+matplotlib

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210"
+   height="215"
+   viewBox="0 0 55.562499 56.885416"
+   version="1.1"
+   id="svg41211"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="robot_effect_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview41213"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.0510461"
+     inkscape:cx="148.7046"
+     inkscape:cy="43.636268"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs41208" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#131a1d;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:8.3;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:markers stroke fill"
+       d="M 27.703801,10.3692 V 4.8481507"
+       id="path2471" />
+    <path
+       id="path23769"
+       style="fill:#2d3d41;fill-opacity:0.996078;fill-rule:evenodd;stroke:#131a1d;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:8.3;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:markers stroke fill"
+       d="m 53.681282,26.515942 c 0.69687,0 1.25832,0.56093 1.25832,1.25781 v 11.16675 c 0,0.69687 -0.56145,1.2578 -1.25832,1.2578 h -1.66089 -1.31878 -1.2578 v -1.2578 -11.16675 -1.25781 h 1.2578 1.31878 z" />
+    <path
+       id="rect23762"
+       style="fill:#2d3d41;fill-opacity:0.996078;fill-rule:evenodd;stroke:#131a1d;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:8.3;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:markers stroke fill"
+       d="m 1.7263194,26.515942 c -0.69688,0 -1.25832,0.56093 -1.25832,1.25781 v 11.16675 c 0,0.69687 0.56144,1.2578 1.25832,1.2578 h 1.66088 1.31878 1.25781 v -1.2578 -11.16675 -1.25781 h -1.25781 -1.31878 z" />
+    <rect
+       style="fill:#629ca6;fill-opacity:0.996078;fill-rule:evenodd;stroke:#131a1d;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:8.3;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:markers stroke fill"
+       id="rect6465"
+       width="42.680023"
+       height="45.040577"
+       x="6.3638158"
+       y="10.734073"
+       ry="8.2146235" />
+    <circle
+       style="fill:#2d3d41;fill-opacity:0.996078;fill-rule:evenodd;stroke:#131a1d;stroke-width:0.9;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:8.3;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:markers stroke fill"
+       id="path11623"
+       cx="37.302418"
+       cy="28.337664"
+       r="4.1763496" />
+    <circle
+       style="fill:#2d3d41;fill-opacity:0.996078;fill-rule:evenodd;stroke:#131a1d;stroke-width:0.9;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:8.3;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:markers stroke fill"
+       id="circle23654"
+       cx="18.105207"
+       cy="28.246439"
+       r="4.1763496" />
+    <rect
+       style="fill:#2d3d41;fill-opacity:0.996078;fill-rule:evenodd;stroke:#131a1d;stroke-width:0.9;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:8.3;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:markers stroke fill"
+       id="rect23708"
+       width="23.768105"
+       height="4.3214736"
+       x="15.819748"
+       y="42.695316"
+       ry="2.1607368" />
+    <circle
+       style="fill:#2d3d41;fill-opacity:0.996078;fill-rule:evenodd;stroke:#131a1d;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:8.3;stroke-dasharray:none;stroke-opacity:0.996078;paint-order:markers stroke fill"
+       id="circle2469"
+       cx="27.703779"
+       cy="3.0011163"
+       r="1.9511133" />
+  </g>
+</svg>
