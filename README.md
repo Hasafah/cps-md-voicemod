@@ -2,7 +2,7 @@
 
 A Python desktop application for real-time voice effects, waveform and spectrogram visualization, and WAV recording. Developed as a digital signal processing project.
 
-**[Download Windows releases](https://github.com/Hasafah/cps-md-voice-mod/releases)** · **[Project report (Polish)](docs/project-report-pl.pdf)** · **[Build instructions](docs/BUILDING.md)**
+**[Download Windows releases](https://github.com/Hasafah/cps-md-voicemod/releases/)** · **[Project report (Polish)](docs/project-report-pl.pdf)** · **[Build instructions](docs/BUILDING.md)**
 
 ## Features
 
@@ -37,7 +37,7 @@ Screenshots are extracted from the original project report.
 
 ## Run the Windows application
 
-1. Open the [Releases page](https://github.com/Hasafah/cps-md-voice-mod/releases).
+1. Open the [Releases page](https://github.com/Hasafah/cps-md-voicemod/releases/).
 2. Download the attached Windows application ZIP. The automatically generated **Source code** archives contain the repository, rather than the executable bundle.
 3. Extract the entire ZIP to a local folder.
 4. Keep `CPSMDVoiceMOD.exe` and the `_internal` folder together, along with every other file included in the bundle.
